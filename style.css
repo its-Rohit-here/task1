@@ -174,7 +174,7 @@ color: #FFFFFF;
 }
 .title{
     font-family: IBM Plex Sans;
-font-size: 2vw;
+font-size: 19px;
 line-height: 25px;
 text-align: left;
 font-weight: bold;
@@ -341,7 +341,7 @@ border: 1px solid #E0E0E0;
     height: 50%;
 }
 .aboutPos > *{
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 }
