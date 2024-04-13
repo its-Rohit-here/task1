@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand"
+          ><img src="images/whole.png" alt="..loading"
+        /></a>
+
+        <div class="searchDiv">
+          <img src="images/magnifier.png" alt="" class="magnifier" />
+          <input
+            type="text"
+            class="searchBar border-0"
+            placeholder="Search for your favorite groups in ATG"
+          />
+        </div>
+
+        <a href="#" id="createAccLink"
+          ><div class="createAcc">
+            <div class="createText">Create account.</div>
+            <div id="shortLine">It’s free!</div>
+            <img src="images/downTri.png" id="downImg" alt="..loading" /></div
+        ></a>
+
+        <div class="modal" id="createAccDialog">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="tag">
+              Let's learn, share & inspire each other with our passion for
+              computer engineering. Sign up now 🤘🏼
+            </div>
+            <div class="info">
+              <div class="textForCreateAcc">Create Account</div>
+              <div class="alreadyAcc">already Account <a href="#">sign in</a></div>
+            </div>
+            <div class="textcontent">
+              <form action="submit">
+                <div class="name-input">
+                  <input
+                    type="text"
+                    placeholder="firstname"
+                    class="form-input1"
+                  />
+                  <input
+                    type="text"
+                    placeholder="lastname"
+                    class="form-input2"
+                  />
+                </div>
+               
+                <input type="email" placeholder="email" class="form-input" />
+                <br />
+                <input
+                  type="password"
+                  placeholder="password"
+                  class="form-input"
+                />
+                <br />
+                <input
+                  type="password"
+                  placeholder="confirm password"
+                  class="form-input"
+                />
+                <button type="submit" style="background-color: cornflowerblue; border-radius: 20px; height:50px">Create Account</button>
+
+                <button type="button" class="login-with-google-btn" >
+                    Sign in with Google
+                  </button>
+              </form>
+              <div class="right-pic">
+                <img src="images/imageBoy.png" alt="" id="animation-pic" />
+              </div>
+            </div>
+
+            <div class="otherSignUp"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="createAccDialog"></div>
+
+    <div class="cover">
+      <div class="groupInfo">
+        <div class="groupName">Computer Engineering</div>
+        <div class="followings">142,765 Computer Engineers follow this</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="groupOperations">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary optionNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">All Posts(32)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Article</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Job</a>
+              </li>
+          </ul>
+        </nav>
+        <div class="operations">
+          <button type="button" class="btn btn-secondary btn-sm">
+            write post
+          </button>
+          <button type="button" class="btn btn-primary btn-sm">
+            Join Group
+          </button>
+        </div>
+      </div>
+      <hr />
+      <div class="postAndInfo d-flex">
+        <div class="leftsection posts">
+          <div class="post" id="post1">
+            <div class="aboutPost">
+              <div class="category">✍️ Article</div>
+              <div class="headingAndbtn">
+                <div class="title">
+                  What if famous brands had regular fonts? Meet RegulaBrands!
+                </div>
+                <div class="moreOptions">
+                  <img src="images/icons8-dots-30.png" alt="" class="dots" />
+                </div>
+              </div>
+              <div class="description">
+                I’ve worked in UX for the better part of a decade. From now on,
+                I plan to rei…
+              </div>
+              <div class="moreInfoPost">
+                <div class="postedBy">
+                  <img src="images/user1.jpg" alt="" class="user" /><span
+                    class="userName"
+                    >Sarthak Kamra</span
+                  >
+                </div>
+
+                <div class="shareContainer">
+                  <div class="views" id="Post1view">
+                    <img
+                      src="images/visibility_24px_outlined.png"
+                      alt=""
+                      class="viewIcon"
+                    /><span class="viewscount">1.4k views</span>
+                  </div>
+                  <div class="share">
+                    <img
+                      src="images/icons8-share-30.png"
+                      alt=""
+                      class="shareIcon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post" id="post2">
+            <div class="aboutPost">
+              <div class="category">✍️ Article</div>
+              <div class="headingAndbtn">
+                <div class="title">
+                  What if famous brands had regular fonts? Meet RegulaBrands!
+                </div>
+                <div class="moreOptions">
+                  <img src="images/icons8-dots-30.png" alt="" class="dots" />
+                </div>
+              </div>
+              <div class="description">
+                I’ve worked in UX for the better part of a decade. From now on,
+                I plan to rei…
+              </div>
+              <div class="moreInfoPost">
+                <div class="postedBy">
+                  <img src="images/user1.jpg" alt="" class="user" /><span
+                    class="userName"
+                    >Sarthak Kamra</span
+                  >
+                </div>
+
+                <div class="shareContainer">
+                  <div class="views" id="Post1view">
+                    <img
+                      src="images/visibility_24px_outlined.png"
+                      alt=""
+                      class="viewIcon"
+                    /><span class="viewscount">1.4k views</span>
+                  </div>
+                  <div class="share">
+                    <img
+                      src="images/icons8-share-30.png"
+                      alt=""
+                      class="shareIcon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post" id="post3">
+            <div class="aboutPost">
+              <div class="category">✍️ Article</div>
+              <div class="headingAndbtn">
+                <div class="title">
+                  What if famous brands had regular fonts? Meet RegulaBrands!
+                </div>
+                <div class="moreOptions">
+                  <img src="images/icons8-dots-30.png" alt="" class="dots" />
+                </div>
+              </div>
+              <div class="description">
+                I’ve worked in UX for the better part of a decade. From now on,
+                I plan to rei…
+              </div>
+              <div class="moreInfoPost">
+                <div class="postedBy">
+                  <img src="images/user1.jpg" alt="" class="user" /><span
+                    class="userName"
+                    >Sarthak Kamra</span
+                  >
+                </div>
+
+                <div class="shareContainer">
+                  <div class="views" id="Post1view">
+                    <img
+                      src="images/visibility_24px_outlined.png"
+                      alt=""
+                      class="viewIcon"
+                    /><span class="viewscount">1.4k views</span>
+                  </div>
+                  <div class="share">
+                    <img
+                      src="images/icons8-share-30.png"
+                      alt=""
+                      class="shareIcon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post withoutImgPost" id="post4">
+            <div class="aboutPost">
+              <div class="category">✍️ Article</div>
+              <div class="headingAndbtn">
+                <div class="title">
+                  What if famous brands had regular fonts? Meet RegulaBrands!
+                </div>
+                <div class="moreOptions">
+                  <img src="images/icons8-dots-30.png" alt="" class="dots" />
+                </div>
+              </div>
+              <div class="description">
+                I’ve worked in UX for the better part of a decade. From now on,
+                I plan to rei…
+              </div>
+              <div class="moreInfoPost">
+                <div class="postedBy">
+                  <img src="images/user1.jpg" alt="" class="user" /><span
+                    class="userName"
+                    >Sarthak Kamra</span
+                  >
+                </div>
+
+                <div class="shareContainer">
+                  <div class="views" id="Post1view">
+                    <img
+                      src="images/visibility_24px_outlined.png"
+                      alt=""
+                      class="viewIcon"
+                    /><span class="viewscount">1.4k views</span>
+                  </div>
+                  <div class="share">
+                    <img
+                      src="images/icons8-share-30.png"
+                      alt=""
+                      class="shareIcon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rigthsection"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
